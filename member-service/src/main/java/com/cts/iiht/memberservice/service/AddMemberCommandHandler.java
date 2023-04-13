@@ -22,10 +22,10 @@ public class AddMemberCommandHandler {
     private KafkaTemplate<String, Object> kafkaTemplate;
 
     @Autowired
-    private AddMemberCommandHelper addMemberCommandHelper;
+    private MemberServiceHelper memberServiceHelper;
 
     public void sendMessage(AddMemberCommand addMemberCommand) {
-        MemberAddedEvent event =addMemberCommandHelper.createMemberAddedEvent(addMemberCommand);
+        MemberAddedEvent event =memberServiceHelper.createMemberAddedEvent(addMemberCommand);
 
         LOGGER.info("MemberAddedEvent {} ",event);
         //create message

@@ -3,7 +3,6 @@ package com.cts.iiht.basedomain.model;
 import lombok.*;
 import lombok.experimental.*;
 
-import java.time.*;
 
 @Getter
 @Setter
