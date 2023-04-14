@@ -38,8 +38,8 @@ public class MemberServiceController {
             throw new InvalidRequestException("Member already exist in the team with same member_id");
         }
 
-        if (addMemberCommand.getProjectStartDate().isBefore(addMemberCommand.getProjectEndDate())){
-            throw new InvalidRequestException("Member already exist in the team with same member_id");
+        if (addMemberCommand.getProjectEndDate().isBefore(addMemberCommand.getProjectStartDate())){
+            throw new InvalidRequestException("Project end date can not be before project start date");
         }
         addMemberCommandHandler.sendMessage(addMemberCommand);
 
