@@ -20,7 +20,7 @@ public class ProjectMember {
     @Column(name="member_id",nullable = false, unique = true)
     private String memberId;
     @Column(name="years_of_experience", nullable = false)
-    private int yearsOfExperienc;
+    private int yearsOfExperience;
     @ElementCollection(fetch = FetchType.EAGER)
     @Column(name="skillset",nullable = false)
     private List<String> skillset = new ArrayList<>();

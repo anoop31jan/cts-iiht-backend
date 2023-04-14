@@ -37,7 +37,7 @@ public class MemberServiceHelper {
         projectMember.setDescription(memberAddedEvent.getProfileDescription());
         projectMember.setSkillset(memberAddedEvent.getSkillset());
         projectMember.setAllocationPercentage(memberAddedEvent.getAllocationPercentage());
-        projectMember.setYearsOfExperienc(memberAddedEvent.getYearsOfExperienc());
+        projectMember.setYearsOfExperience(memberAddedEvent.getYearsOfExperienc());
         projectMember.setProjectEndDate(memberAddedEvent.getProjectEndDate());
         projectMember.setProjectStartDate(memberAddedEvent.getProjectStartDate());
         return projectMember;

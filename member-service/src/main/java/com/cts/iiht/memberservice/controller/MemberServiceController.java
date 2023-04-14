@@ -6,9 +6,12 @@ import com.cts.iiht.memberservice.model.*;
 import com.cts.iiht.memberservice.service.*;
 import org.apache.kafka.common.errors.*;
 import org.springframework.beans.factory.annotation.*;
+import org.springframework.data.domain.*;
+import org.springframework.data.web.*;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.*;
 import javax.validation.*;
 import java.util.*;
 
@@ -18,6 +21,7 @@ public class MemberServiceController {
 
 
     private AddMemberCommandHandler addMemberCommandHandler;
+
     @Autowired
     private QueryService queryService;
 
@@ -34,6 +38,9 @@ public class MemberServiceController {
             throw new InvalidRequestException("Member already exist in the team with same member_id");
         }
 
+        if (addMemberCommand.getProjectStartDate().isBefore(addMemberCommand.getProjectEndDate())){
+            throw new InvalidRequestException("Member already exist in the team with same member_id");
+        }
         addMemberCommandHandler.sendMessage(addMemberCommand);
 
         APIResponse apiResponse = APIResponse.builder()
@@ -46,12 +53,10 @@ public class MemberServiceController {
     }
 
     @GetMapping("/members")
-    public ResponseEntity<List<ProjectMemberDto>> getAllMembers(){
+    public ResponseEntity<List<ProjectMemberDto>> getAllMembers(
+            @PageableDefault(size = 20, sort = "id") Pageable pageable, HttpServletResponse response) {
 
-        List<ProjectMemberDto> listOfAllMembers = queryService.getAllMembersFromProject();
-
-
-
+        List<ProjectMemberDto> listOfAllMembers = queryService.getAllMembersFromProject(pageable, response);
         return ResponseEntity.ok(listOfAllMembers);
 
     }
