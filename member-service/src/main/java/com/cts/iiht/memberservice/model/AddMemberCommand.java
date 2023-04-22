@@ -17,7 +17,7 @@ public class AddMemberCommand {
     private String memberId;
     @Positive(message = "Member must have at least 5 years of experience")
     @Min(5)
-    private int yearsOfExperienc;
+    private int yearsOfExperience;
     @NotNull
     @Size(min =3 , message = "Member must possess at least 3 skillSets")
     private List<String> skillset;

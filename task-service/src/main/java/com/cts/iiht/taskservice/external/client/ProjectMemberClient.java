@@ -1,6 +1,5 @@
-package com.cts.iiht.memberservice.model;
+package com.cts.iiht.taskservice.external.client;
 
-import com.cts.iiht.basedomain.model.*;
 import com.fasterxml.jackson.annotation.*;
 import lombok.*;
 import lombok.experimental.*;
@@ -13,12 +12,12 @@ import java.util.*;
 @JsonIgnoreProperties(ignoreUnknown = true)
 @NoArgsConstructor
 @AllArgsConstructor
-public class MemberAddedEvent extends BaseEvent {
+public class ProjectMemberClient {
     private String memberName;
     private String memberId;
     private int yearsOfExperience;
     private List<String> skillset;
-    private String profileDescription;
+    private String description;
     private LocalDate projectStartDate;
     private LocalDate projectEndDate;
     private int allocationPercentage;

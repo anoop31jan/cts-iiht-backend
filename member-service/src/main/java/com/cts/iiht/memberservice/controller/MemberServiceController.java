@@ -4,6 +4,7 @@ import com.cts.iiht.basedomain.model.*;
 import com.cts.iiht.memberservice.entity.*;
 import com.cts.iiht.memberservice.model.*;
 import com.cts.iiht.memberservice.service.*;
+import org.apache.commons.lang3.*;
 import org.apache.kafka.common.errors.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.data.domain.*;
@@ -14,6 +15,9 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.*;
 import javax.validation.*;
 import java.util.*;
+
+import static com.cts.iiht.basedomain.constant.ProjectTrackerConstant.ERROR_MESSAGE_MEMBER_ALREADY_EXIST;
+import static com.cts.iiht.basedomain.constant.ProjectTrackerConstant.ERROR_MESSAGE_PROJECT_START_DATE;
 
 @RestController
 @RequestMapping("api/v1")
@@ -35,11 +39,11 @@ public class MemberServiceController {
         ProjectMember projectMember = queryService.getProjectMemberByMemberId(addMemberCommand.getMemberId());
 
         if (Objects.nonNull(projectMember)){
-            throw new InvalidRequestException("Member already exist in the team with same member_id");
+            throw new InvalidRequestException(ERROR_MESSAGE_MEMBER_ALREADY_EXIST);
         }
 
         if (addMemberCommand.getProjectEndDate().isBefore(addMemberCommand.getProjectStartDate())){
-            throw new InvalidRequestException("Project end date can not be before project start date");
+            throw new InvalidRequestException(ERROR_MESSAGE_PROJECT_START_DATE);
         }
         addMemberCommandHandler.sendMessage(addMemberCommand);
 
@@ -50,6 +54,20 @@ public class MemberServiceController {
         return ResponseEntity.ok(apiResponse);
 
 
+    }
+
+    @GetMapping("/member/{memberId}")
+    public ResponseEntity<ProjectMember> getMemberDetails(@PathVariable String memberId) {
+        if (StringUtils.isNoneBlank(memberId)) {
+
+            ProjectMember projectMember = queryService.getProjectMemberByMemberId(memberId);
+            if (Objects.nonNull(projectMember)) {
+
+                return ResponseEntity.ok(projectMember);
+            }
+            throw new InvalidRequestException("Members not found with the given member id " + memberId);
+        }
+        return null;
     }
 
     @GetMapping("/members")

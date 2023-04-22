@@ -22,14 +22,14 @@ public class MemberServiceHelper {
                 .profileDescription(addMemberCommand.getProfileDescription())
                 .projectEndDate(addMemberCommand.getProjectEndDate())
                 .projectStartDate(addMemberCommand.getProjectStartDate())
-                .yearsOfExperienc(addMemberCommand.getYearsOfExperienc())
+                .yearsOfExperience(addMemberCommand.getYearsOfExperience())
                 .skillset(addMemberCommand.getSkillset())
                 .build();
 
 
     }
 
-    public ProjectMember craeteProjectMemberEntity(MemberAddedEvent memberAddedEvent){
+    public ProjectMember craeteProjectMemberEntity(final MemberAddedEvent memberAddedEvent){
 
         ProjectMember projectMember = new ProjectMember();
         projectMember.setMemberId(memberAddedEvent.getMemberId());
@@ -37,7 +37,7 @@ public class MemberServiceHelper {
         projectMember.setDescription(memberAddedEvent.getProfileDescription());
         projectMember.setSkillset(memberAddedEvent.getSkillset());
         projectMember.setAllocationPercentage(memberAddedEvent.getAllocationPercentage());
-        projectMember.setYearsOfExperience(memberAddedEvent.getYearsOfExperienc());
+        projectMember.setYearsOfExperience(memberAddedEvent.getYearsOfExperience());
         projectMember.setProjectEndDate(memberAddedEvent.getProjectEndDate());
         projectMember.setProjectStartDate(memberAddedEvent.getProjectStartDate());
         return projectMember;
