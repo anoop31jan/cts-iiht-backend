@@ -4,6 +4,7 @@ import com.cts.iiht.basedomain.model.*;
 import com.cts.iiht.taskservice.external.*;
 import com.cts.iiht.taskservice.external.client.*;
 import com.cts.iiht.taskservice.model.*;
+import com.cts.iiht.taskservice.service.*;
 import org.apache.kafka.common.errors.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.http.*;
@@ -17,10 +18,11 @@ import java.util.*;
 public class TaskController {
     @Autowired
     private  MemberService memberService;
-
+    @Autowired
+    private TaskCommandHandler taskCommandHandler;
 
     @PostMapping("/assign-task")
-    public ResponseEntity<APIResponse> assignTask(@Valid @RequestBody AssignTaskCommand assignTaskCommand){
+    public ResponseEntity<Object> assignTask(@Valid @RequestBody AssignTaskCommand assignTaskCommand){
 
         ProjectMemberClient memberClient  = memberService.getMemberDetails(assignTaskCommand.getMemberId());
 
@@ -38,13 +40,16 @@ public class TaskController {
             if (assignTaskCommand.getTaskEndDate().isAfter(memberClient.getProjectEndDate())){
                 throw new InvalidRequestException("Task end date can not be before Project end date ");
             }
+
+            taskCommandHandler.sendMessage(assignTaskCommand);
             APIResponse apiResponse = APIResponse.builder()
                     .success(Boolean.TRUE)
                     .message(" Task created and assigned to team member with id " + assignTaskCommand.getMemberId())
                     .build();
             return ResponseEntity.ok(apiResponse);
         }
-        return null;
+
+        return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
 
     }
 }

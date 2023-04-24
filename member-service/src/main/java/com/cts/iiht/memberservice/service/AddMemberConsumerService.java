@@ -25,7 +25,7 @@ public class AddMemberConsumerService {
 
     @KafkaListener(topics = "${spring.kafka.topic.name}"
             , groupId = "@{spring.kafka.consumer.group-id}")
-    public void consume(Message messageEvent) {
+    public void consgume(Message messageEvent) {
             final String eventName = (String) messageEvent.getHeaders().get("eventName");
         LOGGER.info("Event received at member consumer {} ",eventName);
         LOGGER.info("Event Name {} ",messageEvent.getPayload());
