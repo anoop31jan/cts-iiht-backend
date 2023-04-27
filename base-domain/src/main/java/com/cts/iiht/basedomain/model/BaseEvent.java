@@ -13,4 +13,5 @@ import lombok.experimental.*;
 public class BaseEvent {
     public String eventName;
     public String createdAt;
+    public String transactionId;
 }

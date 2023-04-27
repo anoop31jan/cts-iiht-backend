@@ -15,9 +15,10 @@ public class AddMemberCommand {
     private String memberName;
     @NotEmpty
     private String memberId;
-    @Positive(message = "Member must have at least 5 years of experience")
+
     @Min(5)
     private int yearsOfExperience;
+
     @NotNull
     @Size(min =3 , message = "Member must possess at least 3 skillSets")
     private List<String> skillset;
@@ -27,7 +28,7 @@ public class AddMemberCommand {
     private LocalDate projectStartDate;
     @NotNull
     private LocalDate projectEndDate;
-    @Positive(message = "value should be between 1 to 100")
+
     @Min(1)
     @Max(100)
     private int allocationPercentage;

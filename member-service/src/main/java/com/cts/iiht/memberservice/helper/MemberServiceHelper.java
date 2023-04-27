@@ -5,6 +5,7 @@ import com.cts.iiht.memberservice.model.*;
 import org.springframework.stereotype.*;
 
 import java.time.*;
+import java.util.*;
 
 import static com.cts.iiht.basedomain.constant.ProjectTrackerConstant.MEMBER_CREATED_EVENT;
 
@@ -15,6 +16,7 @@ public class MemberServiceHelper {
 
         return MemberAddedEvent.builder()
                 .eventName(MEMBER_CREATED_EVENT)
+                .transactionId(UUID.randomUUID().toString())
                 .createdAt(LocalDateTime.now().toString())
                 .memberId(addMemberCommand.getMemberId())
                 .memberName(addMemberCommand.getMemberName())

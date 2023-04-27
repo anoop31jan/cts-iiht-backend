@@ -25,7 +25,7 @@ public class Task {
     private LocalDate taskStartDate;
 
     @Column(name ="task_end_date", nullable = false)
-    private String taskEndDate;
+    private LocalDate taskEndDate;
 
     @Column(name = "member_id" , nullable = false)
     private String memberId;

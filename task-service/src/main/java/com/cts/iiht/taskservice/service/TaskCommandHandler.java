@@ -11,6 +11,8 @@ import org.springframework.messaging.*;
 import org.springframework.messaging.support.*;
 import org.springframework.stereotype.*;
 
+import static com.cts.iiht.basedomain.constant.ProjectTrackerConstant.EVENT_NAME;
+
 @Service
 public class TaskCommandHandler {
 
@@ -27,12 +29,12 @@ public class TaskCommandHandler {
     public void sendMessage(final AssignTaskCommand assignTaskCommand) {
 
         TaskAssignedEvent assignedEvent = taskServiceHelper.createTaskAssignedEvent(assignTaskCommand);
-        LOGGER.info("MemberAddedEvent {} ",assignedEvent);
+        LOGGER.info("taskAssigned Event {} ",assignedEvent);
         //create message
         Message<TaskAssignedEvent> message = MessageBuilder
                 .withPayload(assignedEvent)
                 .setHeader(KafkaHeaders.TOPIC, topic.name())
-                .setHeader("eventName",assignedEvent.getEventName())
+                .setHeader(EVENT_NAME,assignedEvent.getEventName())
                 .build();
         kafkaTemplate.send(message);
 
