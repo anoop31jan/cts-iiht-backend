@@ -52,7 +52,7 @@ public class TaskController {
 
     }
 
-    @GetMapping("/taskDetails/{memberId}")
+    @GetMapping("/{memberId}/taskDetails")
     public ResponseEntity<List<TaskDetailsDto>> getTaskListForMember(@PathVariable String memberId){
 
          List<TaskDetailsDto> taskDetailsDtos = queryService.getListOfTaskDetails(memberId);

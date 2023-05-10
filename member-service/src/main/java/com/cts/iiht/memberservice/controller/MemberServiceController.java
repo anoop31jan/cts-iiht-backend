@@ -59,7 +59,6 @@ public class MemberServiceController {
     @GetMapping("/member/{memberId}")
     public ResponseEntity<ProjectMember> getMemberDetails(@PathVariable String memberId) {
         if (StringUtils.isNoneBlank(memberId)) {
-
             ProjectMember projectMember = queryService.getProjectMemberByMemberId(memberId);
             if (Objects.nonNull(projectMember)) {
 
@@ -79,4 +78,19 @@ public class MemberServiceController {
 
     }
 
+    @PutMapping("/update/members/{memberId}/allocationpercentage")
+    public ResponseEntity<Object> updateAllocationPercentage(@PathVariable String memberId){
+
+        ProjectMember projectMember = queryService.getProjectMemberByMemberId(memberId);
+        if (Objects.isNull(projectMember)){
+            throw new InvalidRequestException("Members not found with the given member id " + memberId);
+        }
+        queryService.updateMemberAllocationpercentage(projectMember);
+        APIResponse apiResponse = APIResponse.builder()
+                .success(Boolean.TRUE)
+                .message(" Allocation percentage updated successfully")
+                .data(projectMember)
+                .build();
+        return ResponseEntity.ok(apiResponse);
+    }
 }

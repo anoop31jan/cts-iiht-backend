@@ -3,6 +3,7 @@ package com.cts.iiht.memberservice.service;
 import com.cts.iiht.basedomain.model.*;
 import com.cts.iiht.memberservice.entity.*;
 import com.cts.iiht.memberservice.repository.*;
+import lombok.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.data.domain.*;
 import org.springframework.http.HttpHeaders;
@@ -10,6 +11,7 @@ import org.springframework.stereotype.*;
 import org.springframework.util.*;
 
 import javax.servlet.http.*;
+import java.time.*;
 import java.util.*;
 import java.util.stream.*;
 
@@ -24,7 +26,8 @@ public class QueryService {
 
     }
 
-    public List<ProjectMemberDto> getAllMembersFromProject(Pageable pageable, HttpServletResponse response){
+    public List<ProjectMemberDto> getAllMembersFromProject(@NonNull final Pageable pageable,
+                                                           @NonNull final HttpServletResponse response){
        final Page<ProjectMember> membersOnPage = memberRepository.findAll(pageable);
        final List<ProjectMember> members = membersOnPage.getContent();
        List<ProjectMemberDto>  listOfProjectMembersDto = new ArrayList<>();
@@ -49,5 +52,15 @@ public class QueryService {
         return listOfProjectMembersDto;
     }
 
+    public void updateMemberAllocationpercentage(@NonNull final ProjectMember projectMember) {
+
+        if (projectMember.getProjectEndDate().isBefore(LocalDate.now())) {
+            projectMember.setAllocationPercentage(0);
+
+        } else{
+            projectMember.setAllocationPercentage(100);
+        }
+        memberRepository.save(projectMember);
+    }
 }
 

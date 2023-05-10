@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="683d75d4-3a39-49bc-90d5-10db7181bc7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/model/TaskDetailsDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/QueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/QueryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/helper/TaskServiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/helper/TaskServiceHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/repository/TaskRepository.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/base-domain/target/" />
     <ignored path="$PROJECT_DIR$/member-service/target/" />
@@ -24,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="239">
+              <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,11 +31,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/exception/GlobalExceptionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="205">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/model/APIResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="58" column="35" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="35" />
+            <state relative-caret-position="256">
+              <caret line="91" column="56" selection-start-line="91" selection-start-column="56" selection-end-line="91" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/QueryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+            <state relative-caret-position="222">
+              <caret line="54" column="34" lean-forward="true" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,18 +132,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/model/TaskAssignedEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -197,8 +195,6 @@
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/model/MemberAddedEvent.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/external/MemberService.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/external/client/ProjectMemberClient.java" />
-        <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java" />
-        <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/QueryService.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/model/TaskAssignedEvent.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/config/KafkaTopicConfig.java" />
         <option value="$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/model/BaseEvent.java" />
@@ -216,8 +212,10 @@
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/repository/TaskRepository.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/helper/TaskServiceHelper.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/QueryService.java" />
-        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/exception/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java" />
+        <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/QueryService.java" />
+        <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java" />
       </list>
     </option>
   </component>
@@ -271,198 +269,7 @@
             <path>
               <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="memberservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="memberservice" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="memberservice" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="memberservice" type="462c0819:PsiDirectoryNode" />
-              <item name="helper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="memberservice" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="memberservice" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="task-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="task-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="task-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="task-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="task-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="taskservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="task-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="taskservice" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="task-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="taskservice" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="task-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="taskservice" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="task-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="taskservice" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="task-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="taskservice" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="task-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="taskservice" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="task-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="project-service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -474,7 +281,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1683708958649" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1683725032021" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/task-service" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -556,8 +363,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TaskServiceApplication" />
         <item itemvalue="Application.MemberServiceApplication" />
+        <item itemvalue="Application.TaskServiceApplication" />
         <item itemvalue="Application.BaseDomainApplication" />
         <item itemvalue="Application.ProjectServiceApplication" />
       </list>
@@ -637,13 +444,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682612692904</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Query handler completed-commiit -task service-2">
+      <created>1683716444562</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683716444562</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Query handler completed-commiit -task service-2">
+      <created>1683716606205</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683716606205</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1326" height="624" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49815497" visible="true" weight="0.31121644" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49815497" visible="true" weight="0.31121644" />
       <window_info id="Structure" order="1" sideWeight="0.501845" side_tool="true" weight="0.2539557" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -790,16 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/model/APIResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,16 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/QueryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/repository/TaskRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1080,10 +882,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java">
+    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/exception/GlobalExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="58" column="35" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="35" />
+        <state relative-caret-position="205">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1092,18 +894,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="239">
+          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/exception/GlobalExceptionHandler.java">
+    <entry file="file://$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/model/APIResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/QueryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="54" column="34" lean-forward="true" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="91" column="56" selection-start-line="91" selection-start-column="56" selection-end-line="91" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
