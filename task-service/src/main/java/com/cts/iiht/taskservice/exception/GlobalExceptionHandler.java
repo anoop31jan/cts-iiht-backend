@@ -28,7 +28,7 @@ public class GlobalExceptionHandler {
     public ResponseEntity<Map<String, String>> handleFeignException(FeignException fx){
 
         Map<String, String> resp = new HashMap<>();
-        resp.put("errorMessage",fx.getMessage());
+        resp.put("errorMessage",fx.getLocalizedMessage());
         resp.put("statusCode",HttpStatus.BAD_REQUEST.toString());
 
         return new ResponseEntity<>(resp, HttpStatus.BAD_REQUEST);

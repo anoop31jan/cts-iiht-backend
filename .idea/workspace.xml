@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="683d75d4-3a39-49bc-90d5-10db7181bc7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/repository/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/TaskAssignedConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/model/TaskDetailsDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/constant/ProjectTrackerConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/constant/ProjectTrackerConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/model/BaseEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/model/BaseEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/helper/MemberServiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/helper/MemberServiceHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/model/AddMemberCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/model/AddMemberCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/AddMemberConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/AddMemberConsumerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/test/java/com/cts/iiht/memberservice/MemberServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/test/java/com/cts/iiht/memberservice/MemberServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/entity/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/entity/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/exception/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/helper/TaskServiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/helper/TaskServiceHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/TaskCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/TaskCommandHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/repository/TaskRepository.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/base-domain/target/" />
     <ignored path="$PROJECT_DIR$/member-service/target/" />
@@ -30,6 +22,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/exception/GlobalExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/AddMemberCommandHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -42,9 +58,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/TaskCommandHandler.java">
+        <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
+            <state relative-caret-position="153">
+              <caret line="58" column="35" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/QueryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/QueryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
               <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -54,73 +94,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/constant/ProjectTrackerConstant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="41" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="36" column="82" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/model/AddMemberCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/member-service/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/helper/TaskServiceHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task-service/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/AddMemberConsumerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="222">
+              <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,10 +106,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/helper/MemberServiceHelper.java">
+        <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/repository/MemberRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="33" column="86" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
+            <state relative-caret-position="102">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/repository/TaskRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/model/TaskAssignedEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,8 +146,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -160,6 +161,8 @@
       <find>MemberServiceCOnt</find>
       <find>MemberServiceAppl</find>
       <find>Task</find>
+      <find>TaskAssigne</find>
+      <find>TaskDe</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -194,18 +197,14 @@
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/model/MemberAddedEvent.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/external/MemberService.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/external/client/ProjectMemberClient.java" />
-        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/exception/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/QueryService.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/model/TaskAssignedEvent.java" />
-        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/config/KafkaTopicConfig.java" />
         <option value="$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/model/BaseEvent.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/helper/MemberServiceHelper.java" />
         <option value="$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/constant/ProjectTrackerConstant.java" />
-        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/repository/TaskRepository.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/entity/Task.java" />
-        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/helper/TaskServiceHelper.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/MemberServiceApplication.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/AddMemberConsumerService.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/TaskAssignedConsumer.java" />
@@ -213,6 +212,12 @@
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/model/AddMemberCommand.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/task-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/model/TaskDetailsDto.java" />
+        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/repository/TaskRepository.java" />
+        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/helper/TaskServiceHelper.java" />
+        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/QueryService.java" />
+        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java" />
+        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/exception/GlobalExceptionHandler.java" />
       </list>
     </option>
   </component>
@@ -419,7 +424,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="taskservice" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
+              <item name="task-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="taskservice" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
+              <item name="task-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="taskservice" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
@@ -449,7 +474,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1682612632368" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1683708958649" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/task-service" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -531,8 +556,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MemberServiceApplication" />
         <item itemvalue="Application.TaskServiceApplication" />
+        <item itemvalue="Application.MemberServiceApplication" />
         <item itemvalue="Application.BaseDomainApplication" />
         <item itemvalue="Application.ProjectServiceApplication" />
       </list>
@@ -605,14 +630,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682352637046</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Query handler completed-commiit -task service-2">
+      <created>1682612692904</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682612692904</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1324" height="624" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1326" height="624" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49815497" visible="true" weight="0.31487343" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49815497" visible="true" weight="0.31121644" />
       <window_info id="Structure" order="1" sideWeight="0.501845" side_tool="true" weight="0.2539557" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -652,21 +683,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Query handler completed-commiit -task service-2" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service.java" />
     <entry file="file://$PROJECT_DIR$/project-service/src/main/java/com/cts/iiht/projectservice/ProjectServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -770,16 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/exception/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.27/spring-web-5.3.27.jar!/org/springframework/http/HttpStatus.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
@@ -834,27 +840,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/QueryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/model/MemberAddedEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="10" selection-start-line="10" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -909,40 +898,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/model/TaskAssignedEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/member-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/repository/MemberRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/repository/TaskRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -957,16 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="32" column="63" lean-forward="true" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/helper/TaskServiceHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -990,30 +939,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/AddMemberCommandHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/helper/MemberServiceHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="33" column="86" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="36" column="82" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1050,17 +979,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/task-service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="289">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task-service/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/model/TaskDetailsDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/model/TaskAssignedEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/AddMemberCommandHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/repository/MemberRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/QueryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/repository/TaskRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.12/lib/src.zip!/java.base/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/helper/TaskServiceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/QueryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="58" column="35" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/exception/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

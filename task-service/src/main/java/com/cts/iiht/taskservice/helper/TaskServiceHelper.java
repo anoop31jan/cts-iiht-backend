@@ -1,6 +1,7 @@
 package com.cts.iiht.taskservice.helper;
 
 import com.cts.iiht.taskservice.entity.*;
+import com.cts.iiht.taskservice.external.client.*;
 import com.cts.iiht.taskservice.model.*;
 import org.springframework.stereotype.*;
 
@@ -37,5 +38,20 @@ public class TaskServiceHelper {
         task.setTaskEndDate(taskAssignedEvent.getTaskEndDate());
 
         return task;
+    }
+
+    public TaskDetailsDto prepareTaskDtoObject(final Task task, final ProjectMemberClient projectMemberClient){
+
+        TaskDetailsDto taskDetailsDto = new TaskDetailsDto();
+        taskDetailsDto.setTaskName(task.getTaskName());
+        taskDetailsDto.setMemberId(task.getMemberId());
+        taskDetailsDto.setDeliverables(task.getDeliverables());
+        taskDetailsDto.setTaskStartDate(task.getTaskStartDate());
+        taskDetailsDto.setTaskEndDate(task.getTaskEndDate());
+        taskDetailsDto.setProjectStartDate(projectMemberClient.getProjectStartDate());
+        taskDetailsDto.setProjectEndDate(projectMemberClient.getProjectEndDate());
+        taskDetailsDto.setAllocationPercentage(projectMemberClient.getAllocationPercentage());
+        return taskDetailsDto;
+
     }
 }

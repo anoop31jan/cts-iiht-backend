@@ -17,27 +17,26 @@ import java.util.*;
 @RequestMapping("api/v1")
 public class TaskController {
     @Autowired
-    private  MemberService memberService;
+    private MemberService memberService;
     @Autowired
     private TaskCommandHandler taskCommandHandler;
 
+    @Autowired
+    private QueryService queryService;
+
     @PostMapping("/assign-task")
-    public ResponseEntity<Object> assignTask(@Valid @RequestBody AssignTaskCommand assignTaskCommand){
+    public ResponseEntity<Object> assignTask(@Valid @RequestBody AssignTaskCommand assignTaskCommand) {
 
-        ProjectMemberClient memberClient  = memberService.getMemberDetails(assignTaskCommand.getMemberId());
+        ProjectMemberClient memberClient = memberService.getMemberDetails(assignTaskCommand.getMemberId());
 
-        System.out.println("data received from Rest call "+ memberClient);
+        System.out.println("data received from Rest call " + memberClient);
 
         if (Objects.nonNull(memberClient)) {
-            System.out.println(" Member name "+ memberClient.getMemberName());
-            System.out.println(" TASK start date "+ assignTaskCommand.getTaskStartDate());
-            System.out.println(" Task end date "+ assignTaskCommand.getTaskEndDate());
-            System.out.println(" Proje end date "+ memberClient.getProjectEndDate());
 
             if (assignTaskCommand.getTaskEndDate().isBefore(assignTaskCommand.getTaskStartDate())) {
                 throw new InvalidRequestException("Task start date can not be before task end date ");
             }
-            if (assignTaskCommand.getTaskEndDate().isAfter(memberClient.getProjectEndDate())){
+            if (assignTaskCommand.getTaskEndDate().isAfter(memberClient.getProjectEndDate())) {
                 throw new InvalidRequestException("Task end date can not be before Project end date ");
             }
 
@@ -52,4 +51,14 @@ public class TaskController {
         return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
 
     }
+
+    @GetMapping("/taskDetails/{memberId}")
+    public ResponseEntity<List<TaskDetailsDto>> getTaskListForMember(@PathVariable String memberId){
+
+         List<TaskDetailsDto> taskDetailsDtos = queryService.getListOfTaskDetails(memberId);
+
+        return ResponseEntity.ok(taskDetailsDtos);
+
+    }
+
 }
