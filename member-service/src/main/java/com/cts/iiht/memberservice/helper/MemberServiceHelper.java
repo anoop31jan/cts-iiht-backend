@@ -2,6 +2,7 @@ package com.cts.iiht.memberservice.helper;
 
 import com.cts.iiht.memberservice.entity.*;
 import com.cts.iiht.memberservice.model.*;
+import lombok.*;
 import org.springframework.stereotype.*;
 
 import java.time.*;
@@ -12,7 +13,7 @@ import static com.cts.iiht.basedomain.constant.ProjectTrackerConstant.MEMBER_CRE
 @Component
 public class MemberServiceHelper {
 
-    public MemberAddedEvent createMemberAddedEvent(AddMemberCommand addMemberCommand) {
+    public MemberAddedEvent createMemberAddedEvent(@NonNull final AddMemberCommand addMemberCommand) {
 
         return MemberAddedEvent.builder()
                 .eventName(MEMBER_CREATED_EVENT)
@@ -31,7 +32,7 @@ public class MemberServiceHelper {
 
     }
 
-    public ProjectMember craeteProjectMemberEntity(final MemberAddedEvent memberAddedEvent){
+    public ProjectMember craeteProjectMemberEntity(@NonNull final MemberAddedEvent memberAddedEvent){
 
         ProjectMember projectMember = new ProjectMember();
         projectMember.setMemberId(memberAddedEvent.getMemberId());

@@ -4,6 +4,7 @@ import com.cts.iiht.memberservice.entity.*;
 import com.cts.iiht.memberservice.helper.*;
 import com.cts.iiht.memberservice.model.*;
 import com.cts.iiht.memberservice.repository.*;
+import lombok.*;
 import org.slf4j.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.kafka.annotation.*;
@@ -25,7 +26,7 @@ public class AddMemberConsumerService {
 
     @KafkaListener(topics = "${spring.kafka.topic.name}"
             , groupId = "@{spring.kafka.consumer.group-id}")
-    public void consume(Message messageEvent) {
+    public void consume(@NonNull final Message messageEvent) {
             final String eventName = (String) messageEvent.getHeaders().get("eventName");
         LOGGER.info("Event received at member consumer {} ",eventName);
         LOGGER.info("Event Name {} ",messageEvent.getPayload());
@@ -36,7 +37,7 @@ public class AddMemberConsumerService {
 
     }
 
-    public void save(MemberAddedEvent memberAddedEvent) {
+    public void save(@NonNull final MemberAddedEvent memberAddedEvent) {
 
         ProjectMember projectMember = memberServiceHelper.craeteProjectMemberEntity(memberAddedEvent);
         memberRepository.save(projectMember);

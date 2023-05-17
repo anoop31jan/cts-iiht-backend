@@ -16,8 +16,7 @@ import javax.servlet.http.*;
 import javax.validation.*;
 import java.util.*;
 
-import static com.cts.iiht.basedomain.constant.ProjectTrackerConstant.ERROR_MESSAGE_MEMBER_ALREADY_EXIST;
-import static com.cts.iiht.basedomain.constant.ProjectTrackerConstant.ERROR_MESSAGE_PROJECT_START_DATE;
+import static com.cts.iiht.basedomain.constant.ProjectTrackerConstant.*;
 
 @RestController
 @RequestMapping("api/v1")
@@ -64,9 +63,9 @@ public class MemberServiceController {
 
                 return ResponseEntity.ok(projectMember);
             }
-            throw new InvalidRequestException("Members not found with the given member id " + memberId);
+            throw new InvalidRequestException(ERROR_MESSAGE_MEMBER_NOT_FOUND + memberId);
         }
-        return null;
+        return ResponseEntity.notFound().build();
     }
 
     @GetMapping("/members")
@@ -83,7 +82,7 @@ public class MemberServiceController {
 
         ProjectMember projectMember = queryService.getProjectMemberByMemberId(memberId);
         if (Objects.isNull(projectMember)){
-            throw new InvalidRequestException("Members not found with the given member id " + memberId);
+            throw new InvalidRequestException(ERROR_MESSAGE_MEMBER_NOT_FOUND + memberId);
         }
         queryService.updateMemberAllocationpercentage(projectMember);
         APIResponse apiResponse = APIResponse.builder()

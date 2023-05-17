@@ -2,6 +2,7 @@ package com.cts.iiht.memberservice.service;
 
 import com.cts.iiht.memberservice.helper.*;
 import com.cts.iiht.memberservice.model.*;
+import lombok.*;
 import org.apache.kafka.clients.admin.*;
 import org.slf4j.*;
 import org.springframework.beans.factory.annotation.*;
@@ -24,7 +25,7 @@ public class AddMemberCommandHandler {
     @Autowired
     private MemberServiceHelper memberServiceHelper;
 
-    public void sendMessage(AddMemberCommand addMemberCommand) {
+    public void sendMessage(@NonNull final AddMemberCommand addMemberCommand) {
         MemberAddedEvent event =memberServiceHelper.createMemberAddedEvent(addMemberCommand);
 
         LOGGER.info("MemberAddedEvent {} ",event);
