@@ -19,7 +19,7 @@ import java.util.*;
 import static com.cts.iiht.basedomain.constant.ProjectTrackerConstant.*;
 
 @RestController
-@RequestMapping("api/v1")
+@RequestMapping("projectmgmt/api/v1")
 public class MemberServiceController {
 
 
@@ -32,7 +32,7 @@ public class MemberServiceController {
         this.addMemberCommandHandler = addMemberCommandHandler;
     }
 
-    @PostMapping("/addMember")
+    @PostMapping("/manager/add-member")
     public ResponseEntity<APIResponse> addProjectMember(@Valid @RequestBody AddMemberCommand addMemberCommand){
 
         ProjectMember projectMember = queryService.getProjectMemberByMemberId(addMemberCommand.getMemberId());
@@ -68,8 +68,8 @@ public class MemberServiceController {
         return ResponseEntity.notFound().build();
     }
 
-    @GetMapping("/members")
-    public ResponseEntity<List<ProjectMemberDto>> getAllMembers(
+    @GetMapping("/manager/list/memberdetails")
+    public ResponseEntity<List<ProjectMemberDto>> getAllMembers(@PathVariable (required = false) String memberDetail,
             @PageableDefault(size = 20, sort = "id") Pageable pageable, HttpServletResponse response) {
 
         List<ProjectMemberDto> listOfAllMembers = queryService.getAllMembersFromProject(pageable, response);
@@ -77,7 +77,7 @@ public class MemberServiceController {
 
     }
 
-    @PutMapping("/update/members/{memberId}/allocationpercentage")
+    @PutMapping("/manager/update/{memberId}/allocationpercentage")
     public ResponseEntity<Object> updateAllocationPercentage(@PathVariable String memberId){
 
         ProjectMember projectMember = queryService.getProjectMemberByMemberId(memberId);

@@ -25,7 +25,7 @@ public class QueryService {
     TaskServiceHelper taskServiceHelper;
 
 
-    public List<TaskDetailsDto> getListOfTaskDetails(String memberId) {
+    public List<TaskDetailsDto> getListOfTaskDetails(final String memberId) {
 
         List<Task> taskList = taskRepository.getTaskBymemberId(memberId);
 

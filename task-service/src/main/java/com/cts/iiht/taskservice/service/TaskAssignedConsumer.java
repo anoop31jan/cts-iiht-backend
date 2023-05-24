@@ -4,6 +4,7 @@ import com.cts.iiht.taskservice.entity.*;
 import com.cts.iiht.taskservice.helper.*;
 import com.cts.iiht.taskservice.model.*;
 import com.cts.iiht.taskservice.repository.*;
+import lombok.*;
 import org.slf4j.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.kafka.annotation.*;
@@ -25,7 +26,7 @@ public class TaskAssignedConsumer {
 
     @KafkaListener(topics = "${spring.kafka.topic.name}"
             , groupId = "@{spring.kafka.consumer.group-id}")
-    public void consume(Message messageEvent) {
+    public void consume(@NonNull final Message messageEvent) {
         final String eventName = (String) messageEvent.getHeaders().get(EVENT_NAME);
         LOGGER.info("Event received at task consumer {} ",eventName);
         LOGGER.info("Event Name {} ",messageEvent.getPayload());
@@ -36,7 +37,7 @@ public class TaskAssignedConsumer {
 
     }
 
-    public void save(TaskAssignedEvent taskAssignedEvent) {
+    public void save(@NonNull final TaskAssignedEvent taskAssignedEvent) {
 
         Task task = taskServiceHelper.createTaskAssignedEntity(taskAssignedEvent);
         taskRepository.save(task);

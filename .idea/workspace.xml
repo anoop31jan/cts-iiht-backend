@@ -2,17 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="683d75d4-3a39-49bc-90d5-10db7181bc7b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_11_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_11_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_90_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_90_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_90_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_90_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_90_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_90_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_classes_epoll_4_1_90_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_90_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_90_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_73.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_73.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_73.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_3_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_3_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_7_11_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_7_11_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_27_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_27_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_27_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_27_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_27_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_27_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_3_27_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_27_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_27_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_27_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_27_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/066ba6d5fa28440a98fb0271c81909c24a3048d7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/066ba6d5fa28440a98fb0271c81909c24a3048d7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/133be30ede0f48b2d33cb6968e19f138cf0c04b1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/133be30ede0f48b2d33cb6968e19f138cf0c04b1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/169421d11e592b1ddabd1b32b70baeeb35e97019" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/169421d11e592b1ddabd1b32b70baeeb35e97019" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d696b358dc83edbd2b879b18c0763d217dd0129" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/259505f0bd8fcbe72a8c00bcaca8ff8ae22e8e8f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28add3d17df75cefbfe3cdbad9c90e1e860567f2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54bf1abfbdd09c81fde489e6a89eea5f9cd16ee9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/5832d29354e107bb055d8e1d8f45e51efd59ed1b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/5832d29354e107bb055d8e1d8f45e51efd59ed1b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/595e9a97bb6b5deefdb8d2b1a2d32ccb5167087c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/595e9a97bb6b5deefdb8d2b1a2d32ccb5167087c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88367bbe5c6bc6f11119b9d7c3596e75a4811af5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/89e0c93f369c60e32fe0055af2f5ae75477b91d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d3062f603a3daaadbfbc211ecf109686f4da7717" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d3062f603a3daaadbfbc211ecf109686f4da7717" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d359ecec927d1f77af43191e657c596547c606b6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df61a35016626dedeef0c801463d73257367ebfa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e8f0bb6313867eeba6d001451198656ecf9517c7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd37f1730e02a8576e863caded771b006710b129" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/constant/ProjectTrackerConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/constant/ProjectTrackerConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/MemberServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/MemberServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/helper/MemberServiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/helper/MemberServiceHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/AddMemberCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/AddMemberCommandHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/repository/MemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/AddMemberConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/AddMemberConsumerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-service/src/test/java/com/cts/iiht/memberservice/MemberServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/test/java/com/cts/iiht/memberservice/MemberServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/src/main/java/com/cts/iiht/projectservice/ProjectServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/src/test/java/com/cts/iiht/projectservice/ProjectServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/external/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/external/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/QueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/QueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/TaskAssignedConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/TaskAssignedConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/base-domain/target/" />
     <ignored path="$PROJECT_DIR$/member-service/target/" />
     <ignored path="$PROJECT_DIR$/project-service/target/" />
     <ignored path="$PROJECT_DIR$/task-service/target/" />
+    <ignored path="$PROJECT_DIR$/discoveryservice/target/" />
+    <ignored path="$PROJECT_DIR$/discovery-service/target/" />
+    <ignored path="$PROJECT_DIR$/api-gateway/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +98,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/model/APIResponse.java">
+        <entry file="file://$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/constant/ProjectTrackerConstant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/discovery-service/src/main/java/com/cts/iiht/discoveryservice/DiscoveryServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/MemberServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/TaskServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-service/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/cts/iiht/apigateway/ApiGatewayApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/TaskCommandHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,8 +175,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+            <state relative-caret-position="153">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,85 +185,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/helper/MemberServiceHelper.java">
+        <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/MemberServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/entity/ProjectMember.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="27" column="30" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/AddMemberCommandHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/AddMemberConsumerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/constant/ProjectTrackerConstant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="61" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/config/KafkaTopicConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/QueryService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+            <state relative-caret-position="391">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,6 +218,10 @@
       <find>Task</find>
       <find>TaskAssigne</find>
       <find>TaskDe</find>
+      <find>discoveryservice</find>
+      <find>Feign</find>
+      <find>feig</find>
+      <find>fei</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -165,50 +233,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/project-service/pom.xml" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/config/KafkaTopicConfig.java" />
         <option value="$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/model/ResponseAPI.java" />
         <option value="$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/model/APIResponse.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/helper/AddMemberCommandHelper.java" />
-        <option value="$PROJECT_DIR$/member-service/pom.xml" />
         <option value="$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/entity/ProjectMember.java" />
         <option value="$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/BaseDomainApplication.java" />
         <option value="$PROJECT_DIR$/base-domain/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/repository/MemberRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/model/ProjectMemberDto.java" />
         <option value="$PROJECT_DIR$/base-domain/pom.xml" />
-        <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/exception/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/repository/MemberRepository.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/entity/ProjectMember.java" />
-        <option value="$PROJECT_DIR$/task-service/pom.xml" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/TaskServiceApplication.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/model/AssignTaskCommand.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/model/MemberAddedEvent.java" />
-        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/external/MemberService.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/external/client/ProjectMemberClient.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/model/TaskAssignedEvent.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/config/KafkaTopicConfig.java" />
         <option value="$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/model/BaseEvent.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/entity/Task.java" />
-        <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/MemberServiceApplication.java" />
-        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/TaskAssignedConsumer.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/TaskCommandHandler.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/model/AddMemberCommand.java" />
-        <option value="$PROJECT_DIR$/member-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/task-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/model/TaskDetailsDto.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/repository/TaskRepository.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/helper/TaskServiceHelper.java" />
-        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/QueryService.java" />
         <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/exception/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/QueryService.java" />
         <option value="$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/constant/ProjectTrackerConstant.java" />
-        <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/helper/MemberServiceHelper.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/AddMemberCommandHandler.java" />
+        <option value="$PROJECT_DIR$/member-service/src/test/java/com/cts/iiht/memberservice/MemberServiceApplicationTests.java" />
+        <option value="$PROJECT_DIR$/member-service/src/test/java/com/cts/iiht/memberservice/MemberServiceTest.java" />
+        <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/repository/MemberRepository.java" />
+        <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java" />
+        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/QueryService.java" />
+        <option value="$PROJECT_DIR$/discovery-service/src/main/java/com/cts/iiht/discoveryservice/DiscoveryServiceApplication.java" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/member-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/member-service/pom.xml" />
+        <option value="$PROJECT_DIR$/task-service/pom.xml" />
+        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/external/MemberService.java" />
+        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java" />
+        <option value="$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/TaskAssignedConsumer.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/AddMemberConsumerService.java" />
+        <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/exception/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/MemberServiceApplication.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/cts/iiht/apigateway/ApiGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/task-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" />
       </list>
     </option>
   </component>
@@ -221,22 +296,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="task-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="task-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="task-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -262,25 +322,68 @@
             <path>
               <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="apigateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -288,71 +391,54 @@
             <path>
               <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="memberservice" type="462c0819:PsiDirectoryNode" />
+              <item name="discoveryservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="memberservice" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="task-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
+              <item name="task-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="memberservice" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
+              <item name="task-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="memberservice" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
+              <item name="task-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="memberservice" type="462c0819:PsiDirectoryNode" />
-              <item name="helper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
+              <item name="task-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="memberservice" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="taskservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-kafka-project-tracker-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-kafka-project-tracker-app" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
+              <item name="task-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="memberservice" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,9 +450,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1683729031761" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/task-service" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1684936871090" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api-gateway/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -391,13 +477,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MemberServiceApplication">
-    <configuration name="BaseDomainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cts.iiht.basedomain.BaseDomainApplication" />
-      <module name="base-domain" />
+  <component name="RunManager" selected="Application.TaskServiceApplication">
+    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cts.iiht.apigateway.ApiGatewayApplication" />
+      <module name="api-gateway" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cts.iiht.basedomain.*" />
+          <option name="PATTERN" value="com.cts.iiht.apigateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cts.iiht.discoveryservice.DiscoveryServiceApplication" />
+      <module name="discovery-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cts.iiht.discoveryservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -418,19 +517,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjectServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cts.iiht.projectservice.ProjectServiceApplication" />
-      <module name="project-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cts.iiht.projectservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TaskServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cts.iiht.taskservice.TaskServiceApplication" />
       <module name="task-service" />
@@ -444,12 +530,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemberServiceTest.test_projectMember_ById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="member-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cts.iiht.memberservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cts.iiht.memberservice" />
+      <option name="MAIN_CLASS_NAME" value="com.cts.iiht.memberservice.MemberServiceTest" />
+      <option name="METHOD_NAME" value="test_projectMember_ById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MemberServiceApplication" />
         <item itemvalue="Application.TaskServiceApplication" />
-        <item itemvalue="Application.BaseDomainApplication" />
-        <item itemvalue="Application.ProjectServiceApplication" />
+        <item itemvalue="Application.ApiGatewayApplication" />
+        <item itemvalue="Application.DiscoveryServiceApplication" />
+        <item itemvalue="Application.MemberServiceApplication" />
+        <item itemvalue="JUnit.MemberServiceTest.test_projectMember_ById" />
       </list>
     </recent_temporary>
   </component>
@@ -548,13 +651,35 @@
       <option name="project" value="LOCAL" />
       <updated>1683725278519</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Query handler completed-commiit - allocation percentage">
+      <created>1684320282847</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684320282847</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MemberServiceTest_test_projectMember_ById - 2023.05.19 at 16h 50m 50s.xml">
+      <configuration name="MemberServiceTest.test_projectMember_ById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemberServiceTest_test_projectMember_ById - 2023.05.19 at 16h 51m 51s.xml">
+      <configuration name="MemberServiceTest.test_projectMember_ById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemberServiceTest_test_projectMember_ById - 2023.05.19 at 16h 52m 23s.xml">
+      <configuration name="MemberServiceTest.test_projectMember_ById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemberServiceTest_test_projectMember_ById - 2023.05.19 at 16h 53m 33s.xml">
+      <configuration name="MemberServiceTest.test_projectMember_ById" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1326" height="624" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49815497" visible="true" weight="0.31121644" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49815497" visible="true" weight="0.32622433" />
       <window_info id="Structure" order="1" sideWeight="0.501845" side_tool="true" weight="0.2539557" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -572,12 +697,12 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.93890023" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3299389" />
-      <window_info anchor="bottom" id="SonarLint" order="11" weight="0.3299389" />
+      <window_info anchor="bottom" id="SonarLint" order="11" weight="0.55193484" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32990506" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32938388" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -595,133 +720,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="Query handler completed-commiit - allocation percentage" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project-service/src/main/java/com/cts/iiht/projectservice/ProjectServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar!/lombok/Data.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/BaseDomainApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/entity/ProjectMember.java" />
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/repository/MemberRepositoryImpl.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.12/lib/src.zip!/java.base/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="158" column="17" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.12/lib/src.zip!/java.base/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.7.11-SNAPSHOT/spring-data-commons-2.7.11-20230414.010221-36.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-domain/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/model/ProjectMemberDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-domain/src/main/resources/config/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-domain/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/external/service/MemberService.java" />
-    <entry file="file://$PROJECT_DIR$/task-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.12/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.27/spring-web-5.3.27.jar!/org/springframework/http/HttpStatus.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/external/MemberService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/exception/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="5" selection-start-line="25" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -755,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/TaskServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/config/KafkaTopicConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -783,33 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/TaskAssignedConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="63" lean-forward="true" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/TaskCommandHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/entity/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
@@ -817,30 +786,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/model/AddMemberCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -864,16 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/repository/MemberRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/repository/TaskRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -891,46 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/helper/TaskServiceHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/QueryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/exception/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/model/APIResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -941,47 +836,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/config/KafkaTopicConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/constant/ProjectTrackerConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/helper/MemberServiceHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/MemberServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -992,10 +853,162 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/QueryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/repository/MemberRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/test/java/com/cts/iiht/memberservice/MemberServiceTest.java" />
     <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/AddMemberCommandHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+        <state relative-caret-position="272">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/config/KafkaTopicConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/test/java/com/cts/iiht/memberservice/MemberServiceApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/model/AddMemberCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discoveryservice/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/springboot-kafka-project-tracker-app.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17943">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery-service/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/exception/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/QueryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="73" selection-start-line="31" selection-start-column="73" selection-end-line="31" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/external/MemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/helper/TaskServiceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.27/spring-web-5.3.27.jar!/org/springframework/http/HttpStatus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/TaskAssignedConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1004,21 +1017,114 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/AddMemberConsumerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
+        <state relative-caret-position="306">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/service/QueryService.java">
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/exception/GlobalExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        <state relative-caret-position="442">
+          <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-domain/src/main/java/com/cts/iiht/basedomain/constant/ProjectTrackerConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/service/TaskCommandHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/controller/MemberServiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/controller/TaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/kotlin/com/cts/iiht/apigateway/ApiGatewayApplication.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery-service/src/main/java/com/cts/iiht/discoveryservice/DiscoveryServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/cts/iiht/memberservice/MemberServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-service/src/main/java/com/cts/iiht/taskservice/TaskServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/cts/iiht/apigateway/ApiGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1039,7 +1145,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Kotlin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1074,7 +1180,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>task-service</last-edited>
+          <last-edited>member-service</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1086,6 +1192,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

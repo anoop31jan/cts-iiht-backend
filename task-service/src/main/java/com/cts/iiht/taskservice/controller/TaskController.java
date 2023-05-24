@@ -6,6 +6,7 @@ import com.cts.iiht.taskservice.external.client.*;
 import com.cts.iiht.taskservice.model.*;
 import com.cts.iiht.taskservice.service.*;
 import org.apache.kafka.common.errors.*;
+import org.slf4j.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
@@ -14,7 +15,7 @@ import javax.validation.*;
 import java.util.*;
 
 @RestController
-@RequestMapping("api/v1")
+@RequestMapping("projectmgmt/api/v1")
 public class TaskController {
     @Autowired
     private MemberService memberService;
@@ -24,12 +25,14 @@ public class TaskController {
     @Autowired
     private QueryService queryService;
 
-    @PostMapping("/assign-task")
+    private static final Logger LOGGER = LoggerFactory.getLogger(TaskController.class);
+
+    @PostMapping("/manager/assign-task")
     public ResponseEntity<Object> assignTask(@Valid @RequestBody AssignTaskCommand assignTaskCommand) {
 
         ProjectMemberClient memberClient = memberService.getMemberDetails(assignTaskCommand.getMemberId());
 
-        System.out.println("data received from Rest call " + memberClient);
+        LOGGER.debug("data received from Rest call {} " , memberClient);
 
         if (Objects.nonNull(memberClient)) {
 
@@ -52,7 +55,7 @@ public class TaskController {
 
     }
 
-    @GetMapping("/{memberId}/taskDetails")
+    @GetMapping("/member/list/{memberId}/taskDetails")
     public ResponseEntity<List<TaskDetailsDto>> getTaskListForMember(@PathVariable String memberId){
 
          List<TaskDetailsDto> taskDetailsDtos = queryService.getListOfTaskDetails(memberId);

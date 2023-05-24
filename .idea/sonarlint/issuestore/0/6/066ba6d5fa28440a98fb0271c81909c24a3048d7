@@ -3,3 +3,5 @@ k
 java:S1104"UMake eventName a static final constant or non-public and provide accessors if needed.(£ ı»
 k
 java:S1104"UMake createdAt a static final constant or non-public and provide accessors if needed.(¼ùÔ
+u
+java:S1104"YMake transactionId a static final constant or non-public and provide accessors if needed.(æŞ˜|8äõõ–ü0

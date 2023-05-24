@@ -7,14 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
         <module name="base-domain" />
+        <module name="discovery-service" />
         <module name="member-service" />
-        <module name="project-service" />
         <module name="task-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-gateway" target="11" />
       <module name="base-domain" target="11" />
+      <module name="discovery-service" target="11" />
       <module name="member-service" target="11" />
       <module name="project-service" target="11" />
       <module name="task-service" target="11" />
@@ -22,7 +25,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
       <module name="base-domain" options="-parameters" />
+      <module name="discovery-service" options="-parameters" />
       <module name="member-service" options="-parameters" />
       <module name="project-service" options="-parameters" />
       <module name="task-service" options="-parameters" />

@@ -1,7 +1,7 @@
 
-t
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‘ôù›ûÿÿÿÿ
+W
+java:S2209"5Change this instance-reference to a static reference.(‘ôù›ûÿÿÿÿ8Å™¾Ê„1
 v
 java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(‘ÕÅ¾8Ö•Úù÷0
-P
-java:S2209"5Change this instance-reference to a static reference.(‘ôù›ûÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‘ôù›ûÿÿÿÿ
