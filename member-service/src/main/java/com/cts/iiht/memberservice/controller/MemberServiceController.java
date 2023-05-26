@@ -19,7 +19,7 @@ import java.util.*;
 import static com.cts.iiht.basedomain.constant.ProjectTrackerConstant.*;
 
 @RestController
-@RequestMapping("projectmgmt/api/v1")
+@RequestMapping("/projectmgmt/api/v1")
 public class MemberServiceController {
 
 

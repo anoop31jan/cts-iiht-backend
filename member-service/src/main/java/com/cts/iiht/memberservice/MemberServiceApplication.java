@@ -5,9 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.*;
 import org.springframework.context.annotation.*;
 import org.springframework.data.jpa.repository.config.*;
+import springfox.documentation.swagger2.annotations.*;
 
 @SpringBootApplication
 @EnableEurekaClient
+@EnableSwagger2
 public class MemberServiceApplication {
 
 	public static void main(String[] args) {

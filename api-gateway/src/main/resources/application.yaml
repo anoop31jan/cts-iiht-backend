@@ -14,11 +14,14 @@ spring:
         - id: member-service
           uri: lb://member-service
           predicates:
-            - Path=/projectmgmt/api/v1/**
-        - id: task-service
-          uri: lb://task-service
-          predicates:
             - Path=/projectmgmt/**
+
+        -  id: task-service
+           uri: lb://task-service
+           predicates:
+            - Path=/taskservice/**
+           filters:
+             - RewritePath=/taskservice,/taskservice
 
 
 

@@ -15,7 +15,7 @@ import javax.validation.*;
 import java.util.*;
 
 @RestController
-@RequestMapping("projectmgmt/api/v1")
+@RequestMapping("/taskservice/api/v1")
 public class TaskController {
     @Autowired
     private MemberService memberService;
