@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.*;
 import org.springframework.data.domain.*;
 import org.springframework.data.web.*;
 import org.springframework.http.*;
+import org.springframework.security.access.prepost.*;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.*;
@@ -69,6 +70,7 @@ public class MemberServiceController {
     }
 
     @GetMapping("/manager/list/memberdetails")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<List<ProjectMemberDto>> getAllMembers(@PathVariable (required = false) String memberDetail,
             @PageableDefault(size = 20, sort = "id") Pageable pageable, HttpServletResponse response) {
 
