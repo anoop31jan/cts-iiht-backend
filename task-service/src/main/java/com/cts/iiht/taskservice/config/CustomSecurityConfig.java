@@ -55,6 +55,8 @@ public class CustomSecurityConfig {
 
         httpSecurity.csrf().disable().cors().disable()
                 .authorizeHttpRequests().antMatchers("/api/v1/auth", "/v2/api-docs", "/swagger-ui.html").permitAll()
+                .antMatchers("/manager/")
+                .hasRole("ADMIN")
                 .anyRequest().authenticated()
                 .and()
                 .httpBasic()

@@ -34,6 +34,7 @@ public class MemberServiceController {
     }
 
     @PostMapping("/manager/add-member")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<APIResponse> addProjectMember(@Valid @RequestBody AddMemberCommand addMemberCommand){
 
         ProjectMember projectMember = queryService.getProjectMemberByMemberId(addMemberCommand.getMemberId());
@@ -80,6 +81,7 @@ public class MemberServiceController {
     }
 
     @PutMapping("/manager/update/{memberId}/allocationpercentage")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Object> updateAllocationPercentage(@PathVariable String memberId){
 
         ProjectMember projectMember = queryService.getProjectMemberByMemberId(memberId);

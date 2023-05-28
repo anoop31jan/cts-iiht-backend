@@ -9,6 +9,7 @@ import org.apache.kafka.common.errors.*;
 import org.slf4j.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.http.*;
+import org.springframework.security.access.prepost.*;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.*;
@@ -28,6 +29,7 @@ public class TaskController {
     private static final Logger LOGGER = LoggerFactory.getLogger(TaskController.class);
 
     @PostMapping("/manager/assign-task")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Object> assignTask(@Valid @RequestBody AssignTaskCommand assignTaskCommand) {
 
         ProjectMemberClient memberClient = memberService.getMemberDetails(assignTaskCommand.getMemberId());
