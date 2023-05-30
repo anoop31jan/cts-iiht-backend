@@ -46,11 +46,12 @@ public class MemberServiceController {
         if (addMemberCommand.getProjectEndDate().isBefore(addMemberCommand.getProjectStartDate())){
             throw new InvalidRequestException(ERROR_MESSAGE_PROJECT_START_DATE);
         }
-        addMemberCommandHandler.sendMessage(addMemberCommand);
+        final MemberAddedEvent memberAddedEvent = addMemberCommandHandler.sendMessage(addMemberCommand);
 
         APIResponse apiResponse = APIResponse.builder()
                 .success(Boolean.TRUE)
                 .message(" Team member added successfully")
+                .data(memberAddedEvent)
                 .build();
         return ResponseEntity.ok(apiResponse);
 

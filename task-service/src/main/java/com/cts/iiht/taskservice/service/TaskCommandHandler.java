@@ -26,7 +26,7 @@ public class TaskCommandHandler {
     @Autowired
     private NewTopic topic;
 
-    public void sendMessage(final AssignTaskCommand assignTaskCommand) {
+    public TaskAssignedEvent sendMessage(final AssignTaskCommand assignTaskCommand) {
 
         TaskAssignedEvent assignedEvent = taskServiceHelper.createTaskAssignedEvent(assignTaskCommand);
         LOGGER.info("taskAssigned Event {} ",assignedEvent);
@@ -37,6 +37,7 @@ public class TaskCommandHandler {
                 .setHeader(EVENT_NAME,assignedEvent.getEventName())
                 .build();
         kafkaTemplate.send(message);
+        return assignedEvent;
 
 
     }

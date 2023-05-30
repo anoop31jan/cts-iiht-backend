@@ -25,7 +25,7 @@ public class AddMemberCommandHandler {
     @Autowired
     private MemberServiceHelper memberServiceHelper;
 
-    public void sendMessage(@NonNull final AddMemberCommand addMemberCommand) {
+    public MemberAddedEvent sendMessage(@NonNull final AddMemberCommand addMemberCommand) {
         MemberAddedEvent event =memberServiceHelper.createMemberAddedEvent(addMemberCommand);
 
         LOGGER.info("MemberAddedEvent {} ",event);
@@ -36,6 +36,7 @@ public class AddMemberCommandHandler {
                 .setHeader("eventName",event.getEventName())
                 .build();
         kafkaTemplate.send(message);
+        return event;
     }
 
 

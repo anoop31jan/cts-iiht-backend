@@ -45,10 +45,11 @@ public class TaskController {
                 throw new InvalidRequestException("Task end date can not be before Project end date ");
             }
 
-            taskCommandHandler.sendMessage(assignTaskCommand);
+            final TaskAssignedEvent taskAssignedEvent = taskCommandHandler.sendMessage(assignTaskCommand);
             APIResponse apiResponse = APIResponse.builder()
                     .success(Boolean.TRUE)
                     .message(" Task created and assigned to team member with id " + assignTaskCommand.getMemberId())
+                    .data(taskAssignedEvent)
                     .build();
             return ResponseEntity.ok(apiResponse);
         }
