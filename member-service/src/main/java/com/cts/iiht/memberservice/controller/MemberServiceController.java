@@ -73,11 +73,13 @@ public class MemberServiceController {
 
     @GetMapping("/manager/list/memberdetails")
     @PreAuthorize("hasRole('ADMIN')")
-    public ResponseEntity<List<ProjectMemberDto>> getAllMembers(@PathVariable (required = false) String memberDetail,
+    public ResponseEntity<Object> getAllMembers(@PathVariable (required = false) String memberDetail,
             @PageableDefault(size = 20, sort = "id") Pageable pageable, HttpServletResponse response) {
 
         List<ProjectMemberDto> listOfAllMembers = queryService.getAllMembersFromProject(pageable, response);
-        return ResponseEntity.ok(listOfAllMembers);
+        TeamMembers teamMembers = new TeamMembers();
+        teamMembers.setTeamMembers(listOfAllMembers);
+        return ResponseEntity.ok(teamMembers);
 
     }
 
