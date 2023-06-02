@@ -59,11 +59,12 @@ public class TaskController {
     }
 
     @GetMapping("/member/list/{memberId}/taskDetails")
-    public ResponseEntity<List<TaskDetailsDto>> getTaskListForMember(@PathVariable String memberId){
+    public ResponseEntity<Object> getTaskListForMember(@PathVariable String memberId){
 
          List<TaskDetailsDto> taskDetailsDtos = queryService.getListOfTaskDetails(memberId);
-
-        return ResponseEntity.ok(taskDetailsDtos);
+         Tasks  tasks = new Tasks();
+         tasks.setTasks(taskDetailsDtos);
+        return ResponseEntity.ok(tasks);
 
     }
 
