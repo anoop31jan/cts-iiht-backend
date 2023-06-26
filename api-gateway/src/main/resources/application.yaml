@@ -7,6 +7,16 @@ spring:
 
   cloud:
     gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - OPTIONS
+              - PUT
+              - DELETE
       discovery:
         locator:
           enabled: true
@@ -22,6 +32,7 @@ spring:
             - Path=/taskservice/**
            filters:
              - RewritePath=/taskservice,/taskservice
+
 
 
 

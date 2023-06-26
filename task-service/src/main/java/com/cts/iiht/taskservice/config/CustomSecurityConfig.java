@@ -12,6 +12,11 @@ import org.springframework.security.core.userdetails.*;
 import org.springframework.security.crypto.bcrypt.*;
 import org.springframework.security.provisioning.*;
 import org.springframework.security.web.*;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+
+import java.util.Arrays;
 
 @Configuration
 @EnableWebSecurity
@@ -53,7 +58,7 @@ public class CustomSecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws Exception {
 
-        httpSecurity.csrf().disable().cors().disable()
+        httpSecurity.cors().and()
                 .authorizeHttpRequests().antMatchers("/api/v1/auth", "/v2/api-docs", "/swagger-ui.html").permitAll()
                 .antMatchers("/manager/")
                 .hasRole("ADMIN")

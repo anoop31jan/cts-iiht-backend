@@ -9,7 +9,7 @@ import org.apache.kafka.common.errors.*;
 import org.slf4j.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.http.*;
-import org.springframework.security.access.prepost.*;
+//import org.springframework.security.access.prepost.*;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.*;
@@ -29,7 +29,7 @@ public class TaskController {
     private static final Logger LOGGER = LoggerFactory.getLogger(TaskController.class);
 
     @PostMapping("/manager/assign-task")
-    @PreAuthorize("hasRole('ADMIN')")
+  //  @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Object> assignTask(@Valid @RequestBody AssignTaskCommand assignTaskCommand) {
 
         ProjectMemberClient memberClient = memberService.getMemberDetails(assignTaskCommand.getMemberId());
@@ -51,6 +51,7 @@ public class TaskController {
                     .message(" Task created and assigned to team member with id " + assignTaskCommand.getMemberId())
                     .data(taskAssignedEvent)
                     .build();
+
             return ResponseEntity.ok(apiResponse);
         }
 
@@ -64,7 +65,11 @@ public class TaskController {
          List<TaskDetailsDto> taskDetailsDtos = queryService.getListOfTaskDetails(memberId);
          Tasks  tasks = new Tasks();
          tasks.setTasks(taskDetailsDtos);
-        return ResponseEntity.ok(tasks);
+         HttpHeaders responseHeaders = new HttpHeaders();
+       //  responseHeaders.set("Access-Control-Allow-Origin", "*");
+        // responseHeaders.set("Access-Control-Allow-Methods","GET");
+         //responseHeaders.set("Access-Control-Allow-Headers", "Content-Type,Origin,X-Auth-Token");
+        return ResponseEntity.ok().headers(responseHeaders).body(tasks);
 
     }
 
