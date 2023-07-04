@@ -2,10 +2,11 @@ package com.cts.iiht.memberservice.controller;
 
 import com.cts.iiht.basedomain.model.*;
 import com.cts.iiht.memberservice.entity.*;
+import com.cts.iiht.memberservice.exception.DataValidationException;
+import com.cts.iiht.memberservice.jms.JmsProducer;
 import com.cts.iiht.memberservice.model.*;
 import com.cts.iiht.memberservice.service.*;
 import org.apache.commons.lang3.*;
-import org.apache.kafka.common.errors.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.data.domain.*;
 import org.springframework.data.web.*;
@@ -24,29 +25,29 @@ import static com.cts.iiht.basedomain.constant.ProjectTrackerConstant.*;
 public class MemberServiceController {
 
 
-    private AddMemberCommandHandler addMemberCommandHandler;
+    private JmsProducer jmsProducer;
 
     @Autowired
     private QueryService queryService;
 
-    public MemberServiceController(AddMemberCommandHandler addMemberCommandHandler) {
-        this.addMemberCommandHandler = addMemberCommandHandler;
+    public MemberServiceController(JmsProducer jmsProducer) {
+        this.jmsProducer = jmsProducer;
     }
 
     @PostMapping("/manager/add-member")
     @PreAuthorize("hasRole('ADMIN')")
-    public ResponseEntity<APIResponse> addProjectMember(@Valid @RequestBody AddMemberCommand addMemberCommand){
+    public ResponseEntity<APIResponse> addProjectMember(@Valid @RequestBody AddMemberCommand addMemberCommand) throws Exception{
 
         ProjectMember projectMember = queryService.getProjectMemberByMemberId(addMemberCommand.getMemberId());
 
         if (Objects.nonNull(projectMember)){
-            throw new InvalidRequestException(ERROR_MESSAGE_MEMBER_ALREADY_EXIST);
+            throw new DataValidationException(ERROR_MESSAGE_MEMBER_ALREADY_EXIST);
         }
 
         if (addMemberCommand.getProjectEndDate().isBefore(addMemberCommand.getProjectStartDate())){
-            throw new InvalidRequestException(ERROR_MESSAGE_PROJECT_START_DATE);
+            throw new DataValidationException(ERROR_MESSAGE_PROJECT_START_DATE);
         }
-        final MemberAddedEvent memberAddedEvent = addMemberCommandHandler.sendMessage(addMemberCommand);
+        final MemberAddedEvent memberAddedEvent = jmsProducer.processAddMemberCommand(addMemberCommand);
 
         APIResponse apiResponse = APIResponse.builder()
                 .success(Boolean.TRUE)
@@ -66,7 +67,7 @@ public class MemberServiceController {
 
                 return ResponseEntity.ok(projectMember);
             }
-            throw new InvalidRequestException(ERROR_MESSAGE_MEMBER_NOT_FOUND + memberId);
+            //throw new InvalidRequestException(ERROR_MESSAGE_MEMBER_NOT_FOUND + memberId);
         }
         return ResponseEntity.notFound().build();
     }
@@ -89,7 +90,7 @@ public class MemberServiceController {
 
         ProjectMember projectMember = queryService.getProjectMemberByMemberId(memberId);
         if (Objects.isNull(projectMember)){
-            throw new InvalidRequestException(ERROR_MESSAGE_MEMBER_NOT_FOUND + memberId);
+            //throw new InvalidRequestException(ERROR_MESSAGE_MEMBER_NOT_FOUND + memberId);
         }
         queryService.updateMemberAllocationpercentage(projectMember);
         APIResponse apiResponse = APIResponse.builder()

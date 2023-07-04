@@ -1,6 +1,5 @@
 package com.cts.iiht.memberservice.exception;
 
-import org.apache.kafka.common.errors.*;
 import org.springframework.http.*;
 import org.springframework.validation.*;
 import org.springframework.web.bind.*;
@@ -23,8 +22,8 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<Map<String, String>>(resp, HttpStatus.MULTI_STATUS.BAD_REQUEST);
     }
 
-@ExceptionHandler(InvalidRequestException.class)
-    public ResponseEntity<Map<String, String>> handleInvalidRequestException(InvalidRequestException ex){
+@ExceptionHandler(DataValidationException.class)
+    public ResponseEntity<Map<String, String>> handleInvalidRequestException(DataValidationException ex){
 
         Map<String, String> resp = new HashMap<>();
         resp.put("errorMessage",ex.getMessage());

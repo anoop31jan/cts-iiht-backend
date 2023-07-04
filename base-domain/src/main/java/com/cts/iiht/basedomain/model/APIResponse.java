@@ -9,9 +9,9 @@ import lombok.*;
 @Builder
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class APIResponse {
+public class APIResponse<T> {
     private boolean success;
     private String message;
-    private Object data;
+    private T data;
 
 }

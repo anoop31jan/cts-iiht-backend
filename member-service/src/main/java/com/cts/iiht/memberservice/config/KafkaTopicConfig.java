@@ -1,9 +1,12 @@
-package com.cts.iiht.memberservice.config;
+/*package com.cts.iiht.memberservice.config;
 
 import org.apache.kafka.clients.admin.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.context.annotation.*;
 import org.springframework.kafka.config.*;
+
+import javax.jms.JMSException;
+import javax.jms.Queue;
 
 @Configuration
 public class KafkaTopicConfig {
@@ -13,5 +16,7 @@ public class KafkaTopicConfig {
 
     @Bean
     public NewTopic topic(){
-        return TopicBuilder.name(topicName).build();    }
-}
+        return TopicBuilder.name(topicName).build();
+
+    }
+}*/

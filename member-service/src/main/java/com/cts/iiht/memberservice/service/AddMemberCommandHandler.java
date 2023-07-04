@@ -1,4 +1,4 @@
-package com.cts.iiht.memberservice.service;
+/*package com.cts.iiht.memberservice.service;
 
 import com.cts.iiht.memberservice.helper.*;
 import com.cts.iiht.memberservice.model.*;
@@ -42,3 +42,4 @@ public class AddMemberCommandHandler {
 
 
 }
+*/

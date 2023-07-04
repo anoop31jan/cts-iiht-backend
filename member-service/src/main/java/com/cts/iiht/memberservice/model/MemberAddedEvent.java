@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.*;
 import lombok.*;
 import lombok.experimental.*;
 
+import java.io.Serializable;
 import java.time.*;
 import java.util.*;
 
@@ -13,7 +14,7 @@ import java.util.*;
 @JsonIgnoreProperties(ignoreUnknown = true)
 @NoArgsConstructor
 @AllArgsConstructor
-public class MemberAddedEvent extends BaseEvent {
+public class MemberAddedEvent extends BaseEvent implements Serializable {
     private String memberName;
     private String memberId;
     private int yearsOfExperience;

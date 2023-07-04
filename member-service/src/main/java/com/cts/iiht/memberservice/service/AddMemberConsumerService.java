@@ -1,4 +1,4 @@
-package com.cts.iiht.memberservice.service;
+/*package com.cts.iiht.memberservice.service;
 
 import com.cts.iiht.memberservice.entity.*;
 import com.cts.iiht.memberservice.helper.*;
@@ -45,3 +45,4 @@ public class AddMemberConsumerService {
 
     }
 }
+*/
