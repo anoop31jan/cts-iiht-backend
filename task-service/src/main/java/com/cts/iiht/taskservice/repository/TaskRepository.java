@@ -1,4 +1,4 @@
-package com.cts.iiht.taskservice.repository;
+/*package com.cts.iiht.taskservice.repository;
 
 import com.cts.iiht.taskservice.entity.*;
 import org.springframework.data.jpa.repository.*;
@@ -11,3 +11,4 @@ public interface TaskRepository extends JpaRepository<Task, Integer> {
 
     List<Task> getTaskBymemberId(String memberId);
 }
+*/

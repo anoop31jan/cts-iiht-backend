@@ -3,7 +3,7 @@ package com.cts.iiht.taskservice.jms;
 import com.cts.iiht.taskservice.entity.Task;
 import com.cts.iiht.taskservice.helper.TaskServiceHelper;
 import com.cts.iiht.taskservice.model.TaskAssignedEvent;
-import com.cts.iiht.taskservice.repository.TaskRepository;
+import com.cts.iiht.taskservice.repository.TasksRepository;
 import lombok.NonNull;
 import org.apache.activemq.command.Message;
 import org.apache.activemq.util.ByteSequence;
@@ -23,7 +23,7 @@ public class JmsConsumer {
     TaskServiceHelper taskServiceHelper;
 
     @Autowired
-    TaskRepository taskRepository;
+    TasksRepository taskRepository;
 
     @JmsListener(destination = "${spring.activemq.queue.name}")
     public void receiveMessage(@NonNull final Message message){
@@ -35,7 +35,7 @@ public class JmsConsumer {
         LOGGER.info("Received Payload : {} ",taskAssignedEvent);
         LOGGER.info("event transaction id : {} ",taskAssignedEvent.getTransactionId());
         Task task = taskServiceHelper.createTaskAssignedEntity(taskAssignedEvent);
-        taskRepository.save(task);
+        taskRepository.saveTask(task);
         LOGGER.info("Data saved successfully in Task table");
         LOGGER.info("Data saved successfully");
 

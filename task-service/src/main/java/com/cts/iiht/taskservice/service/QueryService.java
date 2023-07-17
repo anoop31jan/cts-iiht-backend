@@ -16,7 +16,7 @@ import java.util.stream.*;
 public class QueryService {
 
     @Autowired
-    TaskRepository taskRepository;
+    TasksRepository taskRepository;
 
     @Autowired
     MemberService memberService;
@@ -27,7 +27,7 @@ public class QueryService {
 
     public List<TaskDetailsDto> getListOfTaskDetails(final String memberId) {
 
-        List<Task> taskList = taskRepository.getTaskBymemberId(memberId);
+        List<Task> taskList = taskRepository.getTaskDetailsByMemberId(memberId);
 
         ProjectMemberClient projectMemberClient = memberService.getMemberDetails(memberId);
 

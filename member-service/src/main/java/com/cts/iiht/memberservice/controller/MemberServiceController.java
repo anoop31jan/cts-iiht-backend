@@ -8,8 +8,6 @@ import com.cts.iiht.memberservice.model.*;
 import com.cts.iiht.memberservice.service.*;
 import org.apache.commons.lang3.*;
 import org.springframework.beans.factory.annotation.*;
-import org.springframework.data.domain.*;
-import org.springframework.data.web.*;
 import org.springframework.http.*;
 import org.springframework.security.access.prepost.*;
 import org.springframework.web.bind.annotation.*;
@@ -75,9 +73,9 @@ public class MemberServiceController {
     @GetMapping("/manager/list/memberdetails")
     @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Object> getAllMembers(@PathVariable (required = false) String memberDetail,
-            @PageableDefault(size = 20, sort = "id") Pageable pageable, HttpServletResponse response) {
+           HttpServletResponse response) {
 
-        List<ProjectMemberDto> listOfAllMembers = queryService.getAllMembersFromProject(pageable, response);
+        List<ProjectMemberDto> listOfAllMembers = queryService.getAllMembersFromProject(response);
         TeamMembers teamMembers = new TeamMembers();
         teamMembers.setTeamMembers(listOfAllMembers);
         return ResponseEntity.ok(teamMembers);
