@@ -19,7 +19,6 @@
       <module name="base-domain" target="11" />
       <module name="discovery-service" target="11" />
       <module name="member-service" target="11" />
-      <module name="project-service" target="11" />
       <module name="task-service" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -29,7 +28,6 @@
       <module name="base-domain" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
       <module name="member-service" options="-parameters" />
-      <module name="project-service" options="-parameters" />
       <module name="task-service" options="-parameters" />
     </option>
   </component>
