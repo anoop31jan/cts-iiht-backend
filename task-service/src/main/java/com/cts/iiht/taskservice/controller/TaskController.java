@@ -1,6 +1,5 @@
 package com.cts.iiht.taskservice.controller;
 
-import com.cts.iiht.basedomain.model.*;
 import com.cts.iiht.taskservice.external.*;
 import com.cts.iiht.taskservice.external.client.*;
 import com.cts.iiht.taskservice.model.*;

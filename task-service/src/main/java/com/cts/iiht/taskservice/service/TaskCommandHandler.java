@@ -11,7 +11,8 @@ import org.springframework.messaging.*;
 import org.springframework.messaging.support.*;
 import org.springframework.stereotype.*;
 
-import static com.cts.iiht.basedomain.constant.ProjectTrackerConstant.EVENT_NAME;
+import static com.cts.iiht.taskservice.constant.ProjectTrackerConstant.EVENT_NAME;
+
 
 @Service
 public class TaskCommandHandler {

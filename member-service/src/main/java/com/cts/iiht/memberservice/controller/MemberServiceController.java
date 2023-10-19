@@ -1,10 +1,9 @@
 package com.cts.iiht.memberservice.controller;
 
-import com.cts.iiht.basedomain.model.*;
 import com.cts.iiht.memberservice.entity.*;
 import com.cts.iiht.memberservice.model.*;
 import com.cts.iiht.memberservice.service.*;
-import org.apache.commons.lang3.*;
+import org.apache.commons.lang.StringUtils;
 import org.apache.kafka.common.errors.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.data.domain.*;
@@ -17,7 +16,8 @@ import javax.servlet.http.*;
 import javax.validation.*;
 import java.util.*;
 
-import static com.cts.iiht.basedomain.constant.ProjectTrackerConstant.*;
+import static com.cts.iiht.memberservice.constant.ProjectTrackerConstant.*;
+
 
 @RestController
 @RequestMapping("/projectmgmt/api/v1")
@@ -60,7 +60,7 @@ public class MemberServiceController {
 
     @GetMapping("/member/{memberId}")
     public ResponseEntity<ProjectMember> getMemberDetails(@PathVariable String memberId) {
-        if (StringUtils.isNoneBlank(memberId)) {
+        if (StringUtils.isNotBlank(memberId)) {
             ProjectMember projectMember = queryService.getProjectMemberByMemberId(memberId);
             if (Objects.nonNull(projectMember)) {
 

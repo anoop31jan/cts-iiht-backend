@@ -1,6 +1,5 @@
 package com.cts.iiht.taskservice.model;
 
-import com.cts.iiht.basedomain.model.*;
 import com.fasterxml.jackson.annotation.*;
 import lombok.*;
 import lombok.experimental.*;

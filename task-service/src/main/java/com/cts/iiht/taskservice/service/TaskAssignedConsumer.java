@@ -11,8 +11,9 @@ import org.springframework.kafka.annotation.*;
 import org.springframework.messaging.*;
 import org.springframework.stereotype.*;
 
-import static com.cts.iiht.basedomain.constant.ProjectTrackerConstant.EVENT_NAME;
-import static com.cts.iiht.basedomain.constant.ProjectTrackerConstant.TASK_ASSIGNED_EVENT;
+import static com.cts.iiht.taskservice.constant.ProjectTrackerConstant.EVENT_NAME;
+import static com.cts.iiht.taskservice.constant.ProjectTrackerConstant.TASK_ASSIGNED_EVENT;
+
 
 @Service
 public class TaskAssignedConsumer {

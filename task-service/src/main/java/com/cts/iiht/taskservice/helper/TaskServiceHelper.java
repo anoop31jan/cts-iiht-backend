@@ -8,7 +8,8 @@ import org.springframework.stereotype.*;
 import java.time.*;
 import java.util.*;
 
-import static com.cts.iiht.basedomain.constant.ProjectTrackerConstant.TASK_ASSIGNED_EVENT;
+import static com.cts.iiht.taskservice.constant.ProjectTrackerConstant.TASK_ASSIGNED_EVENT;
+
 
 @Component
 public class TaskServiceHelper {

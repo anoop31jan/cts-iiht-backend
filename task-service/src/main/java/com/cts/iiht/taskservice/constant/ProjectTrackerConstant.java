@@ -1,4 +1,4 @@
-package com.cts.iiht.basedomain.constant;
+package com.cts.iiht.taskservice.constant;
 
 public class ProjectTrackerConstant {
     public static final String MEMBER_CREATED_EVENT = "memberCreatedEvent";

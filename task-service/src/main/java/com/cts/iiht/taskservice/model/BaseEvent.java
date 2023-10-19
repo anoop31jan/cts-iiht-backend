@@ -1,7 +1,7 @@
-package com.cts.iiht.basedomain.model;
+package com.cts.iiht.taskservice.model;
 
 import lombok.*;
-import lombok.experimental.*;
+import lombok.experimental.SuperBuilder;
 
 
 @Getter

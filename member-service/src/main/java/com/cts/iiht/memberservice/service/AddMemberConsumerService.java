@@ -11,7 +11,7 @@ import org.springframework.kafka.annotation.*;
 import org.springframework.messaging.*;
 import org.springframework.stereotype.*;
 
-import static com.cts.iiht.basedomain.constant.ProjectTrackerConstant.MEMBER_CREATED_EVENT;
+import static com.cts.iiht.memberservice.constant.ProjectTrackerConstant.MEMBER_CREATED_EVENT;
 
 @Service
 public class AddMemberConsumerService {

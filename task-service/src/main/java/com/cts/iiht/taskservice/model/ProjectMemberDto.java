@@ -1,9 +1,11 @@
-package com.cts.iiht.basedomain.model;
+package com.cts.iiht.taskservice.model;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-import java.time.*;
-import java.util.*;
+import java.time.LocalDate;
+import java.util.List;
 
 @Data
 @NoArgsConstructor

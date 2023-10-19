@@ -1,21 +1,19 @@
 package com.cts.iiht.memberservice.model;
 
-import com.fasterxml.jackson.annotation.*;
-import lombok.*;
-import lombok.experimental.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-import java.time.*;
-import java.util.*;
+import java.time.LocalDate;
+import java.util.List;
 
 @Data
-@SuperBuilder
-@JsonIgnoreProperties(ignoreUnknown = true)
 @NoArgsConstructor
 @AllArgsConstructor
-public class MemberAddedEvent extends BaseEvent {
+public class ProjectMemberDto {
     private String memberName;
     private String memberId;
-    private int yearsOfExperience;
+    private int yearsOfExperienc;
     private List<String> skillset;
     private String profileDescription;
     private LocalDate projectStartDate;
