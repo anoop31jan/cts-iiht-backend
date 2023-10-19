@@ -1,7 +1,7 @@
 package com.cts.iiht.memberservice.service;
 
-import com.cts.iiht.basedomain.model.*;
 import com.cts.iiht.memberservice.entity.*;
+import com.cts.iiht.memberservice.model.ProjectMemberDto;
 import com.cts.iiht.memberservice.repository.*;
 import lombok.*;
 import org.springframework.beans.factory.annotation.*;

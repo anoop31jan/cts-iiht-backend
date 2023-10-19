@@ -8,7 +8,8 @@ import org.springframework.stereotype.*;
 import java.time.*;
 import java.util.*;
 
-import static com.cts.iiht.basedomain.constant.ProjectTrackerConstant.MEMBER_CREATED_EVENT;
+import static com.cts.iiht.memberservice.constant.ProjectTrackerConstant.MEMBER_CREATED_EVENT;
+
 
 @Component
 public class MemberServiceHelper {
