@@ -58,12 +58,18 @@ public class TaskController {
     }
 
     @GetMapping("/member/list/{memberId}/taskDetails")
-    public ResponseEntity<List<TaskDetailsDto>> getTaskListForMember(@PathVariable String memberId){
+    public ResponseEntity<Object> getTaskListForMember(@PathVariable String memberId){
 
-         List<TaskDetailsDto> taskDetailsDtos = queryService.getListOfTaskDetails(memberId);
-
-        return ResponseEntity.ok(taskDetailsDtos);
+        List<TaskDetailsDto> taskDetailsDtos = queryService.getListOfTaskDetails(memberId);
+        Tasks  tasks = new Tasks();
+        tasks.setTasks(taskDetailsDtos);
+        HttpHeaders responseHeaders = new HttpHeaders();
+        //  responseHeaders.set("Access-Control-Allow-Origin", "*");
+        // responseHeaders.set("Access-Control-Allow-Methods","GET");
+        //responseHeaders.set("Access-Control-Allow-Headers", "Content-Type,Origin,X-Auth-Token");
+        return ResponseEntity.ok().headers(responseHeaders).body(tasks);
 
     }
+
 
 }

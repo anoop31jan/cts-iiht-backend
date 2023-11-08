@@ -53,7 +53,7 @@ public class CustomSecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws Exception {
 
-        httpSecurity.csrf().disable().cors().disable()
+        httpSecurity.csrf().disable(). cors().and()
                 .authorizeHttpRequests().antMatchers("/api/v1/auth", "/v2/api-docs", "/swagger-ui.html").permitAll()
                 .antMatchers("/manager/")
                 .hasRole("ADMIN")
@@ -66,6 +66,7 @@ public class CustomSecurityConfig {
         return httpSecurity.build();
 
     }
+
 
     @Bean
     public WebSecurityCustomizer webSecurityCustomizer() {
