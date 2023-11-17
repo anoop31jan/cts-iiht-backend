@@ -7,6 +7,7 @@ import com.cts.iiht.taskservice.repository.*;
 import lombok.*;
 import org.slf4j.*;
 import org.springframework.beans.factory.annotation.*;
+import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.kafka.annotation.*;
 import org.springframework.messaging.*;
 import org.springframework.stereotype.*;
@@ -18,7 +19,7 @@ import static com.cts.iiht.taskservice.constant.ProjectTrackerConstant.TASK_ASSI
 @Service
 public class TaskAssignedConsumer {
     @Autowired
-    TaskRepository taskRepository;
+    MongoRepository mongoRepository;
 
     @Autowired
     TaskServiceHelper taskServiceHelper;
@@ -40,9 +41,10 @@ public class TaskAssignedConsumer {
 
     public void save(@NonNull final TaskAssignedEvent taskAssignedEvent) {
 
-        Task task = taskServiceHelper.createTaskAssignedEntity(taskAssignedEvent);
-        taskRepository.save(task);
-        LOGGER.info("Data saved successfully in Task table");
+        TaskDoc task = taskServiceHelper.createTaskAssignedEntityForReadFlow(taskAssignedEvent);
+        mongoRepository.save(task);
+        LOGGER.info("Data saved successfully in Task table in mongo db");
 
     }
+
 }

@@ -41,7 +41,21 @@ public class TaskServiceHelper {
         return task;
     }
 
-    public TaskDetailsDto prepareTaskDtoObject(final Task task, final ProjectMemberClient projectMemberClient){
+    public TaskDoc createTaskAssignedEntityForReadFlow(final TaskAssignedEvent taskAssignedEvent) {
+
+        TaskDoc task = new TaskDoc();
+        UUID uuid = UUID.randomUUID();
+        task.setId(uuid.toString());
+        task.setTaskName(taskAssignedEvent.getTaskName());
+        task.setDeliverables(taskAssignedEvent.getDeliverables());
+        task.setMemberId(taskAssignedEvent.getMemberId());
+        task.setTaskStartDate(taskAssignedEvent.getTaskStartDate());
+        task.setTaskEndDate(taskAssignedEvent.getTaskEndDate());
+
+        return task;
+    }
+
+    public TaskDetailsDto prepareTaskDtoObject(final TaskDoc task, final ProjectMemberClient projectMemberClient){
 
         TaskDetailsDto taskDetailsDto = new TaskDetailsDto();
         taskDetailsDto.setTaskName(task.getTaskName());

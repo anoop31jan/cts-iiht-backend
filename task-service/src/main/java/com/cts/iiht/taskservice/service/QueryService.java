@@ -7,6 +7,7 @@ import com.cts.iiht.taskservice.helper.*;
 import com.cts.iiht.taskservice.model.*;
 import com.cts.iiht.taskservice.repository.*;
 import org.springframework.beans.factory.annotation.*;
+import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.*;
 
 import java.util.*;
@@ -16,7 +17,7 @@ import java.util.stream.*;
 public class QueryService {
 
     @Autowired
-    TaskRepository taskRepository;
+   MongoDBRepository mongoDBRepository;
 
     @Autowired
     MemberService memberService;
@@ -27,7 +28,7 @@ public class QueryService {
 
     public List<TaskDetailsDto> getListOfTaskDetails(final String memberId) {
 
-        List<Task> taskList = taskRepository.getTaskBymemberId(memberId);
+        List<TaskDoc> taskList = mongoDBRepository.findByMemberId(memberId);
 
         ProjectMemberClient projectMemberClient = memberService.getMemberDetails(memberId);
 

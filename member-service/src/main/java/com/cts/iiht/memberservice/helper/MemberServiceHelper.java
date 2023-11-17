@@ -32,7 +32,22 @@ public class MemberServiceHelper {
 
     }
 
-    public ProjectMember craeteProjectMemberEntity(@NonNull final MemberAddedEvent memberAddedEvent){
+    public ProjectMemberDoc craeteProjectMemberEntity(@NonNull final MemberAddedEvent memberAddedEvent){
+
+        ProjectMemberDoc projectMember = new ProjectMemberDoc();
+        projectMember.setMemberId(memberAddedEvent.getMemberId());
+        projectMember.setMemberName(memberAddedEvent.getMemberName());
+        projectMember.setDescription(memberAddedEvent.getProfileDescription());
+        projectMember.setSkillset(memberAddedEvent.getSkillset());
+        projectMember.setAllocationPercentage(memberAddedEvent.getAllocationPercentage());
+        projectMember.setYearsOfExperience(memberAddedEvent.getYearsOfExperience());
+        projectMember.setProjectEndDate(memberAddedEvent.getProjectEndDate().toString());
+        projectMember.setProjectStartDate(memberAddedEvent.getProjectStartDate().toString());
+        return projectMember;
+
+    }
+
+    public ProjectMember craeteProjectMemberEntityForMySQL(@NonNull final MemberAddedEvent memberAddedEvent){
 
         ProjectMember projectMember = new ProjectMember();
         projectMember.setMemberId(memberAddedEvent.getMemberId());
@@ -44,7 +59,6 @@ public class MemberServiceHelper {
         projectMember.setProjectEndDate(memberAddedEvent.getProjectEndDate());
         projectMember.setProjectStartDate(memberAddedEvent.getProjectStartDate());
         return projectMember;
-
 
     }
 }

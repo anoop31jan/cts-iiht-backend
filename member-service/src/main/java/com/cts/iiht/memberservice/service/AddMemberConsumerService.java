@@ -18,7 +18,7 @@ public class AddMemberConsumerService {
     private static final Logger LOGGER = LoggerFactory.getLogger(AddMemberConsumerService.class);
 
     @Autowired
-    MemberRepository memberRepository;
+    MongoDbRepository mongoDbRepository;
     @Autowired
     MemberServiceHelper memberServiceHelper;
 
@@ -32,16 +32,16 @@ public class AddMemberConsumerService {
         LOGGER.info("Event Name {} ",messageEvent.getPayload());
         if (MEMBER_CREATED_EVENT.equalsIgnoreCase(eventName)) {
             MemberAddedEvent memberAddedEvent = (MemberAddedEvent) messageEvent.getPayload();
-            save(memberAddedEvent);
+            saveToMongoDb(memberAddedEvent);
         }
 
     }
 
-    public void save(@NonNull final MemberAddedEvent memberAddedEvent) {
+    public void saveToMongoDb(@NonNull final MemberAddedEvent memberAddedEvent) {
 
-        ProjectMember projectMember = memberServiceHelper.craeteProjectMemberEntity(memberAddedEvent);
-        memberRepository.save(projectMember);
-        LOGGER.info("Data saved successfully");
+        ProjectMemberDoc projectMember = memberServiceHelper.craeteProjectMemberEntity(memberAddedEvent);
+        mongoDbRepository.save(projectMember);
+        LOGGER.info("Data saved successfully to mongo db");
 
     }
 }

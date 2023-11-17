@@ -1,7 +1,10 @@
 package com.cts.iiht.taskservice.service;
 
+import com.cts.iiht.taskservice.entity.Task;
 import com.cts.iiht.taskservice.helper.*;
 import com.cts.iiht.taskservice.model.*;
+import com.cts.iiht.taskservice.repository.TaskRepository;
+import lombok.NonNull;
 import org.apache.kafka.clients.admin.*;
 import org.slf4j.*;
 import org.springframework.beans.factory.annotation.*;
@@ -25,6 +28,9 @@ public class TaskCommandHandler {
     private KafkaTemplate<String, Object> kafkaTemplate;
 
     @Autowired
+    private TaskRepository taskRepository;
+
+    @Autowired
     private NewTopic topic;
 
     public TaskAssignedEvent sendMessage(final AssignTaskCommand assignTaskCommand) {
@@ -38,8 +44,17 @@ public class TaskCommandHandler {
                 .setHeader(EVENT_NAME,assignedEvent.getEventName())
                 .build();
         kafkaTemplate.send(message);
+        save(assignedEvent);
         return assignedEvent;
 
+    }
+
+
+    public void save(@NonNull final TaskAssignedEvent taskAssignedEvent) {
+
+        Task task = taskServiceHelper.createTaskAssignedEntity(taskAssignedEvent);
+        taskRepository.save(task);
+        LOGGER.info("Data saved successfully in Task table in command flow");
 
     }
 

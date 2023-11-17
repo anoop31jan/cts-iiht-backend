@@ -18,18 +18,12 @@ import java.util.stream.*;
 @Service
 public class QueryService {
     @Autowired
-    MemberRepository memberRepository;
-
-    public ProjectMember getProjectMemberByMemberId(final String memberId){
-
-    return  memberRepository.getProjectMemberBymemberId(memberId);
-
-    }
+    MongoDbRepository mongoDbRepository;
 
     public List<ProjectMemberDto> getAllMembersFromProject(@NonNull final Pageable pageable,
                                                            @NonNull final HttpServletResponse response){
-       final Page<ProjectMember> membersOnPage = memberRepository.findAll(pageable);
-       final List<ProjectMember> members = membersOnPage.getContent();
+       final Page<ProjectMemberDoc> membersOnPage = mongoDbRepository.findAll(pageable);
+       final List<ProjectMemberDoc> members = membersOnPage.getContent();
        List<ProjectMemberDto>  listOfProjectMembersDto = new ArrayList<>();
        if (!CollectionUtils.isEmpty(members)) {
            listOfProjectMembersDto = members.stream()
@@ -52,15 +46,10 @@ public class QueryService {
         return listOfProjectMembersDto;
     }
 
-    public void updateMemberAllocationpercentage(@NonNull final ProjectMember projectMember) {
+    public ProjectMemberDoc getProjectMemberByMemberId(final String memberId){
 
-        if (projectMember.getProjectEndDate().isBefore(LocalDate.now())) {
-            projectMember.setAllocationPercentage(0);
+        return  mongoDbRepository.findByMemberId(memberId);
 
-        } else{
-            projectMember.setAllocationPercentage(100);
-        }
-        memberRepository.save(projectMember);
     }
 }
 

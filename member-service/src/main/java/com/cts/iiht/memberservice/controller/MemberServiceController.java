@@ -37,7 +37,7 @@ public class MemberServiceController {
     @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<APIResponse> addProjectMember(@Valid @RequestBody AddMemberCommand addMemberCommand){
 
-        ProjectMember projectMember = queryService.getProjectMemberByMemberId(addMemberCommand.getMemberId());
+        ProjectMember projectMember = addMemberCommandHandler.getProjectMemberByMemberId(addMemberCommand.getMemberId());
 
         if (Objects.nonNull(projectMember)){
             throw new InvalidRequestException(ERROR_MESSAGE_MEMBER_ALREADY_EXIST);
@@ -59,9 +59,9 @@ public class MemberServiceController {
     }
 
     @GetMapping("/member/{memberId}")
-    public ResponseEntity<ProjectMember> getMemberDetails(@PathVariable String memberId) {
+    public ResponseEntity<ProjectMemberDoc> getMemberDetails(@PathVariable String memberId) {
         if (StringUtils.isNotBlank(memberId)) {
-            ProjectMember projectMember = queryService.getProjectMemberByMemberId(memberId);
+            ProjectMemberDoc projectMember = queryService.getProjectMemberByMemberId(memberId);
             if (Objects.nonNull(projectMember)) {
 
                 return ResponseEntity.ok(projectMember);
@@ -87,11 +87,11 @@ public class MemberServiceController {
     @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Object> updateAllocationPercentage(@PathVariable String memberId){
 
-        ProjectMember projectMember = queryService.getProjectMemberByMemberId(memberId);
+        ProjectMember projectMember = addMemberCommandHandler.getProjectMemberByMemberId(memberId);
         if (Objects.isNull(projectMember)){
             throw new InvalidRequestException(ERROR_MESSAGE_MEMBER_NOT_FOUND + memberId);
         }
-        queryService.updateMemberAllocationpercentage(projectMember);
+        addMemberCommandHandler.updateMemberAllocationpercentage(projectMember);
         APIResponse apiResponse = APIResponse.builder()
                 .success(Boolean.TRUE)
                 .message(" Allocation percentage updated successfully")

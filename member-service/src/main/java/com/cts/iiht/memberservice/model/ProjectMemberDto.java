@@ -16,7 +16,7 @@ public class ProjectMemberDto {
     private int yearsOfExperienc;
     private List<String> skillset;
     private String profileDescription;
-    private LocalDate projectStartDate;
-    private LocalDate projectEndDate;
+    private String projectStartDate;
+    private String projectEndDate;
     private int allocationPercentage;
 }
